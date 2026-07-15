@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AATalk Project Page</title>
+
+  <style>
+    body {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    video {
+      width: 100%;
+      max-width: 720px;
+      display: block;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
+
 <body>
   <h1>AATalk</h1>
 
-  <p>Project page for our paper.</p>
+  <p>
+    Project page for our paper:
+    <strong>
+      Efficient Geometry-Aware Calibration and Temporal Audio Aggregation
+      for Audio-Driven 3D Talking Head Generation
+    </strong>
+  </p>
 
-  <h2>Demo</h2>
-  <video width="720" controls>
+  <h2>Demo 1</h2>
+  <video controls preload="metadata">
     <source src="demo/demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
+  <h2>Demo 2</h2>
+  <video controls preload="metadata">
+    <source src="demo/demo2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
   <h2>Inference Code</h2>
-  <p>The inference code is available here: 
-<a href="inference.zip">Download inference code</a>.
-</p>
+  <p>
+    The inference code is available here:
+    <a href="inference.zip">Download inference code</a>.
+  </p>
 </body>
 </html>
